@@ -4,41 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Dashboard</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/305968a58a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="parent">
-      <div class="cart-container">
-        <img src="" alt="" />
-      </div>
+    <div class="main">
+      <div class="parent">
+        <div class="cart-container">
+          <img src="./images/cart.svg" alt="Images of Cart" />
+        </div>
 
-      <div class="login-details">
-        <form action="" class="signin-form">
-          <div class="username-field">
-            <input
-              type="text"
-              name="username"
-              id="username"
-              placeholder="USERNAME"
-            />
-          </div>
+        <div class="login-details">
+          <form action="" class="signin-form">
+            <div class="username-field">
+              <!-- <i class="fa-thin fa-user"></i> -->
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="USERNAME"
+              />
+            </div>
 
-          <div class="password-field">
-            <input
-              type="password"
-              name="Password"
-              id="password"
-              placeholder="PASSWORD"
-            />
-          </div>
+            <div class="password-field">
+              <input
+                type="password"
+                name="Password"
+                id="password"
+                placeholder="PASSWORD"
+              />
+            </div>
 
-          <div class="loginfield">
-            <input type="submit" value="LOGIN" />
-          </div>
+            <div class="login-btn-field">
+              <input type="submit" value="LOGIN" class="login-btn" />
+            </div>
 
-          <div class="forget-me-field">
-            <a href="#">Forgot password?</a>
-          </div>
-        </form>
+            <div class="forget-me-field">
+              <a href="#">Forgot password?</a>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </body>

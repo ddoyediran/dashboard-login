@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2148c0;
+  background-image: url("./images/BG.svg");
+  /* background-color: bisque; */
+  /* background-position: center;  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  height: 100vh;
+  /* max-height: max-content; */
+}
+
+.parent {
+  position: relative;
+}
+
+.cart-container {
+  /* display: flex;
+  align-items: center; */
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.cart-container {
+  width: 119.39px;
+  height: 97.85;
+}
+
+/* .username-field {
+  width: 300px;
+  border: 1px solid #ffffff;
+  height: 45px;
+} */
+
+input[type="text"] {
+  width: 300px;
+  height: 45px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 20px;
+  padding-left: 51px;
+  outline: none;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  background: none;
+}
+
+input[type="password"] {
+  width: 300px;
+  height: 45px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 43px;
+  padding-left: 51px;
+  outline: none;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  background: none;
+}
+
+input[type="submit"] {
+  font-size: 16px;
+  font-weight: 500;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 11px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #2148c0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.forget-me-field {
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 20;
+  position: absolute;
+  right: 0;
+}
