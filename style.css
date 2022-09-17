@@ -80,6 +80,7 @@ input[type="text"] {
   padding-left: 51px;
   outline: none;
   background: none;
+  color: #ffffff;
 }
 
 input[type="password"] {
