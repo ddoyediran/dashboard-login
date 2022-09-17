@@ -91,6 +91,10 @@ input[type="password"] {
   background: none;
 }
 
+::placeholder {
+  color: #e4e4e4;
+}
+
 input[type="submit"] {
   font-size: 16px;
   font-weight: 500;
